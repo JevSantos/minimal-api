@@ -1,1 +1,0 @@
-"mysql": "Server=127.0.0.1; Port=3306; Database=minimal_api; Uid=root; Pwd=Pass321;"}
