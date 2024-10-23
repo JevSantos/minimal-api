@@ -6,5 +6,11 @@ namespace minimal_api.Infraestrutura.Interfaces
     public interface IAdministradorSevico
     {
         Administrador? Login(LoginDTO loginDTO);
+
+        Administrador? Incluir(Administrador administrador);
+
+        Administrador? BuscaPorId(int pagina);
+        
+        List<Administrador> Todos(int? pagina);
     }
 }
